@@ -21,6 +21,7 @@ Roll my own "template system".
 """
 import cgi
 import cgitb
+from http.cookies import SimpleCookie
 cgitb.enable()
 
 # Python 3.7 versus Python 3.8
@@ -55,7 +56,6 @@ def secret_page(username=None, password=None):
     """
     if username is None or password is None:
         raise ValueError("You need to pass both username and password!")
-
     return _wrapper("""
     <h1> Welcome, {username}! </h1>
 

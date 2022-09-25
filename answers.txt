@@ -1,0 +1,15 @@
+Q1) print(os.environ) can print out all the env variables we have!
+
+Q2) QUERY_STRING is the name of the parameter
+
+Q3) HTTP_USER_AGENT
+
+Q4) Posted data refreshes the page (as thats the forms default behaviour). CGI picks up on this data and renders things accordingly
+
+Q5) Set-Cookie: [nameOfCookie]=[valueOfCookie]
+
+Q6) "Cookie:" has all the cookies stored.
+
+Q7) They are used to contain small peices of information relevant to a certain domain on the clients computer.
+
+Q8) 

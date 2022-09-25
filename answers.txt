@@ -12,4 +12,4 @@ Q6) "Cookie:" has all the cookies stored.
 
 Q7) They are used to contain small peices of information relevant to a certain domain on the clients computer.
 
-Q8) 
+Q8) https://github.com/ShaishavShah04/cgi-lab
